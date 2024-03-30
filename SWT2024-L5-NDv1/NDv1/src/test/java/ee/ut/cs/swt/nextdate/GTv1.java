@@ -81,7 +81,7 @@ public class GTv1 {
 	public void testCreatesNextDate7() throws Throwable {
 	    NextDate nextDate0 = new NextDate(7, 7, 7);
 	    String string0 = nextDate0.run(7, 31, 1930);
-	    assertEquals("7/31/1930", string0);
+	    assertEquals("8/1/1930", string0);
 	}
 
 	//test 11
